@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="server_stagging" max_length="40" name="x_58872_needit_server_stagging" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Hardware Vendor" label="Hardware Vendor" max_length="40" name="u_hardware_vendor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=OS" label="OS" max_length="69" name="u_os" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Scanned via" label="Scanned via" max_length="40" name="u_scanned_via" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Virtual" label="Virtual" max_length="40" name="u_virtual" type="string"/>
+    </element>
+</database>
